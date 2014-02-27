@@ -10,7 +10,7 @@ UIButton, that looks like UITableViewCell with a detail disclosure accessory ind
 
 There is a sample project of a universal app for iPhone and iPad.
 
-First you create an instance of a player object: 
+Sample Code: 
 ```
   CGRect buttonFrame = CGRectMake(10, 10, buttonWidth, buttonHeight);
   DKAccessoryButton *button = [[DKAccessoryButton alloc] initWithFrame:buttonFrame title:@"ButtonTitle"];
