@@ -17,10 +17,10 @@
 {
     [super viewDidLoad];
 	
-    self.view.backgroundColor = [UIColor blackColor];
+    self.view.backgroundColor = [UIColor colorWithRed:54.0/255.0 green:152.0/255.0 blue:220.0/255.0 alpha:1.0];
     
-    CGRect buttonFrame = CGRectMake(10, 10, 130, 44);
-    DKAccessoryButton *button = [[DKAccessoryButton alloc] initWithFrame:buttonFrame title:@"My button"];
+    CGRect buttonFrame = CGRectMake(10, 10, 300, 44);
+    DKAccessoryButton *button = [[DKAccessoryButton alloc] initWithFrame:buttonFrame title:@"Selected Item"];
     [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
     button.center = CGPointMake(self.view.frame.size.width / 2.0, self.view.frame.size.height / 2.0);
