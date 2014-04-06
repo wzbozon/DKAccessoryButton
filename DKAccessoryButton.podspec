@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "DKAccessoryButton"
-  s.version          = "0.0.2"
+  s.version          = "1.0.1"
   s.summary          = "UIButton, that looks like UITableViewCell with a detail disclosure accessory indicator."
   s.description      = <<-DESC
                        Sometimes you need to create only one button, that looks like a UITableViewCell with accessory indicator. Users are familiar with this control and they know that if they click it, something should appear. For example, it can be used in different forms to select something after user taps a button. Using a UITableView with one section and cell is too complex approach if you need only one such button. Even if you need some more such buttons, you can use this solution to make code a little simpler.
